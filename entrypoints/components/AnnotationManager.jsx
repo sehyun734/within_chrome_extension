@@ -1,4 +1,4 @@
 export default function AnnotationManager() {
-  console.log("annotation loaded");
+  console.info("annotation manager mounted");
   return <div style={{ position: "fixed", zIndex: 9999999 }}>hello</div>;
 }
