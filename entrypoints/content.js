@@ -9,7 +9,7 @@ export default defineContentScript({
 
   async main(ctx) {
     const ui = await createShadowRootUi(ctx, {
-      name: "annotation-manager",
+      name: "shadown-root",
       position: "overlay",
       onMount: (container) => {
         const root = ReactDOM.createRoot(container)
