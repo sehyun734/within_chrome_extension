@@ -1,0 +1,5 @@
+node_modules
+.claude
+.output
+.wxt
+package-lock.json
